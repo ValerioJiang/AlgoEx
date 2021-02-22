@@ -18,6 +18,9 @@ public interface IDoubleLinkedList {
 
     public boolean contains();
 
+    public void clear();
+
+
 
 
 }

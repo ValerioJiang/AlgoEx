@@ -2,7 +2,7 @@ package linkedList;
 
 import java.util.Iterator;
 
-public class DoubleLinkedList<T> implements Iterable<T>{
+public class DoubleLinkedList<T> implements Iterable<T>, IDoubleLinkedList{
 
     @Override
     public Iterator<T> iterator() {
@@ -42,5 +42,47 @@ public class DoubleLinkedList<T> implements Iterable<T>{
     public void addLast(){
 
     }
+
+    @Override
+    public void addFirst() {
+
+
+    }
+
+    @Override
+    public void removeFirst() {
+
+    }
+
+    @Override
+    public void removeIndex() {
+
+    }
+
+    @Override
+    public void removeElem() {
+
+    }
+
+    @Override
+    public void removeLast() {
+
+    }
+
+    @Override
+    public int indexOf() {
+        return 0;
+    }
+
+    @Override
+    public boolean contains() {
+        return false;
+    }
+
+    @Override
+    public void clear() {
+
+    }
+
 
 }
